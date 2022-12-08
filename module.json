@@ -1,0 +1,102 @@
+{
+    "name": "swade-cyberpunk-2074-core",
+    "title": "SWADE Cyberpunk 2074 Core",
+    "description": "Cyberpunk 2074 est une adaptation non officielle du contenu de CyberpunkRED et de Cyberpunk 2077 pour le système SWADE.",
+    "authors": [
+      {
+        "name": "Nnayl",
+        "flags": {}
+      }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+      "minimum": "10",
+      "verified": "10",
+      "maximum": "10"
+    },
+    "packs": [
+      {
+        "name": "cyberpunk-2074-equipements",
+        "label": "Cyberpunk 2074 - Equipements",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-equipements.db",
+        "type": "Item"
+      },
+      {
+        "name": "cyberpunk-2074-atouts",
+        "label": "Cyberpunk 2074 - Atouts",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-atouts.db",
+        "type": "Item"
+      },
+      {
+        "name": "cyberpunk-2074-handicaps",
+        "label": "Cyberpunk 2074 - Handicaps",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-handicaps.db",
+        "type": "Item"
+      },
+      {
+        "name": "cyberpunk-2074-competences",
+        "label": "Cyberpunk 2074 - Compétences",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-competences.db",
+        "type": "Item"
+      },
+      {
+        "name": "cyberpunk-2074-acteurs",
+        "label": "Cyberpunk 2074 - Acteurs",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-acteurs.db",
+        "type": "Actor"
+      },
+      {
+        "name": "cyberpunk-2074-journaux",
+        "label": "Cyberpunk 2074 - Journaux",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-journaux.db",
+        "type": "JournalEntry"
+      },
+      {
+        "name": "cyberpunk-2074-scenes",
+        "label": "Cyberpunk 2074 - Scènes",
+        "system": "swade",
+        "module": "swade-cyberpunk-2074-core",
+        "path": "./packs/cyberpunk-2074-scenes.db",
+        "type": "Scene"
+      },
+      {
+        "label": "Cyberpunk 2074 - Core",
+        "type": "Adventure",
+        "name": "cyberpunk-2074",
+        "path": "packs/cyberpunk-2074-2074.db",
+        "system": "swade",
+        "private": false,
+        "flags": {}
+      }
+    ],
+    "relationships": {
+      "systems" :[
+        {
+          "id": "swade",
+          "type": "system",
+          "compatibility": {}
+        }
+      ],
+      "requires": [
+        {
+          "id": "game-icons-net",
+          "type": "module"
+        }
+      ] 
+    },
+    "url": "https://github.com/Nnayl/swade-cyberpunk-2074-core",
+    "manifest": "https://raw.githubusercontent.com/Nnayl/swade-cyberpunk-2074-core/master/module.json",
+    "download": "https://github.com/Nnayl/swade-cyberpunk-2074-core/archive/refs/tags/1.0.0.zip"
+  }
